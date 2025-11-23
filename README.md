@@ -11,6 +11,7 @@ This repository contains the code, documentation, and results for a project focu
 *   [Results](#results)
 *   [Future Enhancements](#future-enhancements)
 *   [Publications](#publications)
+*   [Datasets](#datasets)
 *   [Setup](#setup)
 
 
@@ -83,6 +84,11 @@ Future enhancements for this project include:
 
   
   🚀 <a href="https://xploreqa.ieee.org/document/10867159" target="_black">Click here to view the IEEE Conference Paper</a>
+
+## Datasets
+
+* [Kaggle Deepfake Detection Challenge](https://www.kaggle.com/competitions/deepfake-detection-challenge/data)
+* [Deep Fake Detection (DFD) Entire Original Dataset](https://www.kaggle.com/datasets/sanikatiwarekar/deep-fake-detection-dfd-entire-original-dataset)
 
 ## Setup
 
