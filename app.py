@@ -122,7 +122,7 @@ def analyze_video_frames(detector, frames, progress_bar=None):
 def main():
     st.title("Enhanced Deepfake Detection System")
     
-    model_path = r"D:\Personals\Projects\DeepFake Detection using MobileNet and LSTM\Models\best_mobilenet_lstm_model.keras"
+    model_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "best_mobilenet_lstm_model.keras")
     
     try:
         detector = DeepfakeDetector(model_path)
