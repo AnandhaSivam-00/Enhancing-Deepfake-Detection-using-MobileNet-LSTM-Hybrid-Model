@@ -98,13 +98,24 @@ Future enhancements for this project include:
     git clone https://github.com/AnandhaSivam-00/Enhancing-Deepfake-Detection-using-MobileNet-LSTM-Hybrid-Model.gitnd
     cd [repository_directory]
     ```
+2. **Requirement Changes**
+   To run this model locally, you need to change some of the dependience based on the OS (Windows / Linux)
+   
+   *Replace the following*
+    1. tensorflow-cpu==2.17.1 --> tensorflow-intel==2.17.1
+    2. opencv-python-headless --> opencv-python
+  
+   *Additionally add those*
+   1. tensorflow==2.17.1
+   2. tensorboard==2.17.1
+   3. tensorboard-data-server==0.7.2
 
-2.  **Install the required dependencies:**
+4.  **Install the required dependencies:**
    
      ```bash
      pip install -r requirements.txt
      ```
-3. **Run the Project**
+5. **Run the Project**
    
    ```bash
    python -m streamlit run app.py
